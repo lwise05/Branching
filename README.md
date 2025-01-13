@@ -12,5 +12,5 @@
 * `git log --oneline` - list commit history (compact format)
 
 ## Branching Commands
-* `git branch "branchName"` - create local branch "branchName"
+* `git branch branchName` - create local branch `branchName`
 * `git checkout branchName` - switch to branch `branchName`
