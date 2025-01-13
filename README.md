@@ -10,3 +10,5 @@
 * `git status` - report status of working directory
 * `git log ` - list commit history of local repo
 * `git log --oneline` - list commit history (compact format)
+* `git branch` - list local branches
+* `git branch "newBranchName`
