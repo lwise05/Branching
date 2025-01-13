@@ -24,3 +24,31 @@ Examples of common git commands. Also practice with branching/merging.
 * `git push origin branchName` - push local commits to remote brach `branchName`
 * `git pull origin branchName` - pull remote commits into local branch 
 
+## Workflow 
+1. Pull latest remote main into local main
+   ```
+   git checkout main
+   git pull origin main
+   ```
+
+1. Branch from updated local main 
+	```
+   git check out -b myBranch
+	```
+
+1. Work in local brach, committing frequently.
+1. When ready to merger, pull remote `main` into local branch (must commit first)
+   ```
+   git add .
+   git commit -m "ready to merger"
+   git pull origin main
+   ```
+	* fix any merger conflicts, then commit 
+
+1. Push to remote branch
+   ```
+   git push origin myBranch
+   ```
+
+1. On Github: create pull request
+1. Merge pull request
