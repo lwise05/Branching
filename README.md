@@ -16,3 +16,8 @@
 * `git branch branchName` - create local branch `branchName`
 * `git checkout branchName` - switch to branch `branchName`
 * `git checkout -b branchName` - create (if not exists) `branchName` and swith to it
+
+## Remote Commands
+* `git remote add alias repoUrl` - define `alias` as shortcut for `repoUrl` (usually `origin` for alias)
+* `git push origin branchName` - push local commits to remote brach `branchName`
+* `git pull origin branchName` - pull remote commits into local branch 
